@@ -1,0 +1,186 @@
+(footprint "7-PADS"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "a2d38198-1868-4dd5-97e1-59b454edb931")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "7-PADS"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d7aa4341-613a-45a4-84b2-65420b0767cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46d148a3-e5c8-4f06-995c-6bede92206cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6704fae7-a20d-44d5-a28b-2cf6a4c019c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "042f1649-0b0d-4508-b786-7c0cf88d52ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at 0 -0.5 45)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start -1.414214 -0.707107)
+						(mid 0.707107 -0.707107)
+						(end 0.707107 1.414214)
+					)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "eee2ef00-c737-4a88-995d-44521b0ff26e")
+	)
+	(pad "2" smd custom
+		(at 7.5 -0.5 45)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start -1.414214 -0.707107)
+						(mid 0.707107 -0.707107)
+						(end 0.707107 1.414214)
+					)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "1750a151-3cf5-4051-ba0c-571bdad43f63")
+	)
+	(pad "3" smd custom
+		(at 45 -0.5 45)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start -1.414214 -0.707107)
+						(mid 0.707107 -0.707107)
+						(end 0.707107 1.414214)
+					)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "da3a1684-2012-4daa-945d-f35a0e572958")
+	)
+	(pad "4" smd custom
+		(at 52.5 -0.5 45)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start -1.414214 -0.707107)
+						(mid 0.707107 -0.707107)
+						(end 0.707107 1.414214)
+					)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "7ab19514-a2f7-4ec4-8c76-9a5fde8225ce")
+	)
+	(pad "5" smd custom
+		(at 60 -0.5 45)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start -1.414214 -0.707107)
+						(mid 0.707107 -0.707107)
+						(end 0.707107 1.414214)
+					)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "7daa8058-028e-4915-9ba6-51b08b9fc4fa")
+	)
+	(embedded_fonts no)
+)

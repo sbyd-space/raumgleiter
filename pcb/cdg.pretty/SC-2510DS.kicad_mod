@@ -1,0 +1,97 @@
+(footprint "SC-2510DS"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1a4812f6-cd3c-495d-885d-0ade1f967528")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SC-2510DS"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4a5a880a-97e5-4baa-82ef-b2f5d52c7a72")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1bf99435-10be-42c2-81ff-6a5d40282d16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8fc40244-b1f4-4e6b-a1d9-d4be4b715ed2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -12.5 -4.5)
+		(end 12.5 4.5)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4cf677d2-8b93-4f33-95d7-b3f4dd35b053")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4630ff05-272e-4fb3-82ac-01e71af37666")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -11.5 -2.5 180)
+		(size 3.5 5)
+		(drill oval 2.5 4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cd4fda1a-c147-4abd-b010-0f6473c96af0")
+	)
+	(pad "2" thru_hole oval
+		(at 11.5 -2.5 180)
+		(size 3.5 5)
+		(drill oval 2.5 4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ffe37411-77ad-498a-a14c-591ad1efde0f")
+	)
+	(embedded_fonts no)
+)
