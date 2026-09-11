@@ -12,10 +12,10 @@ The kit is used in workshops to educate about:
 *rendering of the pcb by Steffen Hartwig, licensed under CC BY 4.0*
 
 The pcbs were developed with [KiCad 10.0][kicad]. 
-Visualizations were made with [Blender 5.2][blender].  
-The fabrication files were generated with [Fabrication Toolkit 5.3][fabricationtoolkit].
+Visualizations were made with KiCad and [Blender 5.2][blender].  
+The fabrication files were generated with [Fabrication Toolkit 5.3][fabricationtoolkit] in KiCad.
 
-PCB and 3D printing source files are licensed under **CERN OHL P 2.0**  
+PCB source files are licensed under **CERN OHL P 2.0**  
 Images and visualizations are licensed under **CC BY 4.0** 
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
