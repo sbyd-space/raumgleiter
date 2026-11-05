@@ -8,6 +8,8 @@ The kit is used in workshops to educate about:
 * solar energy
 * basic hands-on soldering skills
 
+You can find a legible schematic with some annotations [here.](pcb/raumgleiter_circuit_description.pdf)
+
 ![rendering of the pcb](/images/pcb.jpg)
 *rendering of the pcb by Steffen Hartwig, licensed under CC BY 4.0*
 
